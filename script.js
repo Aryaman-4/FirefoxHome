@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
           { name: 'AlgoExpert', url: 'https://www.algoexpert.io/', icon: 'fas fa-bolt' },
           { name: 'InterviewCake', url: 'https://www.interviewcake.com/', icon: 'fas fa-birthday-cake' },
           { name: 'Codédex', url: 'https://codedex.io/', icon: 'fas fa-code' }
+          { name: 'LeetCode', url: 'https://leetcode.com/', icon: 'fas fa-code' }
       ],
       fullstack: [
           { name: 'FrontendMasters', url: 'https://frontendmasters.com/', icon: 'fas fa-laptop-code' },
