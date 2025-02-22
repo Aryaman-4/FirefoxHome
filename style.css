@@ -5,6 +5,8 @@
   --dsa-color: #e74c3c;
   --fullstack-color: #27ae60;
   --background-image: url('https://example.com/your-wallpaper.jpg');
+  --practice-color: #f39c12; /* Orange */
+  --additional-color: #8e44ad; /* Purple */
 }
 
 * {
@@ -78,6 +80,8 @@ body {
 
 [data-category="dsa"] .resource-item { border-left: 4px solid var(--dsa-color); }
 [data-category="fullstack"] .resource-item { border-left: 4px solid var(--fullstack-color); }
+[data-category="practice"] .resource-item { border-left: 4px solid var(--practice-color); }
+[data-category="additional"] .resource-item { border-left: 4px solid var(--additional-color); }
 
 #note-input {
   width: 100%;
